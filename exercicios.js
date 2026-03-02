@@ -13,6 +13,13 @@ const resultadoNumero = numero % 2 === 0 ? "Par" : "Ímpar";
 
 console.log(`O número ${numero} é ${resultadoNumero}`);
 
+// Situação do aluno
+const nota = 6.5;
+
+const situacao = nota >= 7 ? "Aprovado" : nota >= 5 ? "Recuperação" : "Reprovado";
+console.log(situacao);
+
+
 // Intermediário
 // Desconto
 
@@ -39,6 +46,6 @@ const usuarios = [
 
 const formatado = usuarios.map(usuario => {
   return usuario.ativo ? `${usuario.nome} - Ativo` : `${usuario.nome} - Inativo`;
-});B
+});
 
 console.log(formatado);
