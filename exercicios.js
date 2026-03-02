@@ -39,6 +39,6 @@ const usuarios = [
 
 const formatado = usuarios.map(usuario => {
   return usuario.ativo ? `${usuario.nome} - Ativo` : `${usuario.nome} - Inativo`;
-});B
+});
 
 console.log(formatado);
